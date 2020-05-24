@@ -16,6 +16,8 @@
      }
      echo "user has been added";
      }
+     header("location:index.php");
+     exit();
 ?>
 
 
@@ -37,7 +39,7 @@
     </label><br>
     <label>
         پسوورد :
-        <input type="number" name="pssword">
+        <input type="number" name="password">
     </label><br>
     <label>
         کد تخفیف :
